@@ -18,5 +18,5 @@ class Window:
     def open(self):
         self.master.mainloop()
 
-    def stop(self):
+    def close(self):
         self.master.quit()

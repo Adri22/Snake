@@ -47,7 +47,7 @@ class GameHandler:
         elif self.isCollidingWith() == self.obstacles.tail or \
              self.isCollidingWith() == self.obstacles.wall:
             print("game over")
-            self.window.stop()
+            self.window.close()
         while len(self.player.tail) < self.player.tailLength:
             if len(self.player.tail) == 0:
                 previous = self.player
